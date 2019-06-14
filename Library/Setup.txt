@@ -1,1 +1,1 @@
-So basically just add PDFs and structure folders based on how you want your library in here :) Enjoy!
+The "Library" file should be within the files you downloaded. Put PDFs and subfolders within there. Enjoy!

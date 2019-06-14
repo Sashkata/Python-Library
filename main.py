@@ -5,7 +5,9 @@ import os
 currentLibrary = []
 currentLocation = Path("./Library")
 mainWindow = tkinter.Tk()
-mainWindow.geometry("400x795+1120+0")
+screenWidth = mainWindow.winfo_screenwidth()
+screenHeight = mainWindow.winfo_screenheight()
+mainWindow.geometry("400x{}+{}+0".format(screenHeight ,screenWidth-400))
 
 
 def run_Library():
